@@ -1,1 +1,70 @@
-
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر ماتشا قروف</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <h1>متجر ماتشا قروف</h1>
+    </header>
+    <main>
+        <section id="home">
+            <h2>مرحبًا بكم في متجر ماتشا قروف</h2>
+            <p>أفضل مكان لشراء ماتشا عالية الجودة.</p>
+        </section>
+        <section id="products">
+            <h2>منتجاتنا</h2>
+            <div class="product">
+                <img src="path/to/image1.jpg" alt="ماتشا كلاسيك">
+                <h3>ماتشا كلاسيك</h3>
+                <p>سعر: $20</p>
+                <button class="buy-button" data-product-id="1">شراء</button>
+            </div>
+            <div class="product">
+                <img src="path/to/image2.jpg" alt="ماتشا بريميوم">
+                <h3>ماتشا بريميوم</h3>
+                <p>سعر: $30</p>
+                <button class="buy-button" data-product-id="2">شراء</button>
+            </div>
+            <div class="product">
+                <img src="path/to/image3.jpg" alt="ماتشا أورجانيك">
+                <h3>ماتشا أورجانيك</h3>
+                <p>سعر: $25</p>
+                <button class="buy-button" data-product-id="3">شراء</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2>من نحن</h2>
+            <p>ماتشا قروف هو متجر متخصص في بيع منتجات الماتشا عالية الجودة.</p>
+        </section>
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <form>
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">الرسالة:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 متجر ماتشا قروف</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
